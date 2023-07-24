@@ -1,0 +1,95 @@
+#Item1{
+    background-color: aquamarine;
+}
+.b p{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.b h2{
+    margin: 0%;
+    padding-top: 10px;
+}
+#Item2{
+    background-color: violet;
+    color: blue;
+}
+#Item3{
+    background-color:white;
+    color:crimson;
+}
+.head p{
+    color:chartreuse;
+    font-weight:600;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+.body{
+    background-color: brown;
+    color: crimson;
+}
+.b{
+    padding: 20px 20px 0px 20px;
+}
+.container{
+    background-color: aqua;
+    font-size: large;
+}
+
+.navbar-default .navbar-header .navbar-brand{
+    
+    font-size: 40px;
+    color: fuchsia;
+}
+
+/* .navbar navbar-default{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0%;
+} */
+
+.navbar-default .navbar-nav>li>a{
+    background-color:thistle;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.navbar-header .navbar-brand{
+    margin: 10px 10px 0px 10px;
+    color: fuchsia;
+}
+
+
+@media screen and (min-width:992px) {
+    div.container{
+        width: auto;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        border-radius: 0%;
+    }
+    .navbar-default .navbar-nav>li>a{
+        margin-right: 10px;
+    }
+    .navbar-default .navbar-header a.navbar-brand{
+        margin-left: 10px;
+    }    
+}
+@media screen and (max-width:991px) and (min-width:768px){
+    div.container{
+        width: auto;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        border-radius: 0%;
+    }
+    .navbar-default .navbar-nav>li>a{
+        margin-right: 10px;
+    }
+    .navbar-default .navbar-header a.navbar-brand{
+        margin-left: 10px;
+    }
+    
+}
+
+
+
